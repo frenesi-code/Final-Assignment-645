@@ -1,0 +1,10 @@
+/* FOOTER */
+.greybar                    {width:100%;height:90px;background: $greybar-background-color;clear:both;padding-top:30px;}
+footer                      {width:100%;height:120px;background: $footer-background-color;text-align:center;color: $footer-color;padding-top:50px;}
+.social-media               {margin:0 auto;width:165px;}
+.social-media div           {float:left;margin-right:5px;}
+.social-media a             {display:block;width:36px;height:36px;text-indent:-9999px;}
+.social-media div.one       {background:$footer-social-media-img-one 0 0;}
+.social-media div.two 	    {background:$footer-social-media-img-two -38px 0;}
+.social-media div.three     {background:$footer-social-media-img-three -76px 0;}
+.social-media div.four 	    {background:$footer-social-media-img-four -114px 0;}

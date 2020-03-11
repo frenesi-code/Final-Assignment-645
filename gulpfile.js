@@ -10,6 +10,7 @@ function css() {
 
 exports.default = function () {
     watch('src/*.scss', css);
+    watch('src/modules/*.scss', css);
 }
 
 //exports.default = css
