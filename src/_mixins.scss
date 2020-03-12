@@ -1,3 +1,4 @@
+
 @mixin backgroundImg($image-url) {
     background: $image-url $body-color repeat-x; 
     margin:0;
@@ -5,4 +6,8 @@
 
 @mixin logoImg($image-url) {
     background:$image-url no-repeat 0 50px;
+}
+
+@mixin footerSocialImage($image, $x, $y) {
+    background:$image $x $y;
 }
