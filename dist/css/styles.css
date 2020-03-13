@@ -155,7 +155,7 @@ footer {
   background: url("../images/social-media.png") -114px 0; }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 959px) and (min-width: 959px) {
   main {
     width: 768px; }
   figure {
@@ -184,7 +184,7 @@ footer {
     width: 46%;
     margin: 0 2%; } }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) and (min-width: 767px) {
   main {
     width: 460px; }
   nav ul li {
@@ -207,7 +207,7 @@ footer {
     margin: 0 2%;
     float: none; } }
 
-@media screen and (max-width: 459px) {
+@media screen and (max-width: 459px) and (min-width: 459px) {
   main {
     width: 300px; }
   figure {

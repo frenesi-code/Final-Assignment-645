@@ -15,3 +15,9 @@
 @mixin heightCalculation($a, $b){
     height: ($a + $b) / 2;
 }
+
+@mixin break($length){
+    @media (min-width: $length) {
+        @content;
+    }
+}
