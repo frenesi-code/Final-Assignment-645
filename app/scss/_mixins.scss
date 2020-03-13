@@ -11,3 +11,7 @@
 @mixin footerSocialImage($image, $x, $y) {
     background:$image $x $y;
 }
+
+@mixin heightCalculation($a, $b){
+    height: ($a + $b) / 2;
+}

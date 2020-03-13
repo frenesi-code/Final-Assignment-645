@@ -1,5 +1,12 @@
 /* FOOTER */
-.greybar                    {width:100%;height:90px;background: $greybar-background-color;clear:both;padding-top:30px;}
+.greybar                    {
+    width:100%;
+    @include heightCalculation(90, 90);    
+    background: $greybar-background-color;
+    clear:both;
+    padding-top:30px;
+}
+
 footer                      {width:100%;height:120px;background: $footer-background-color;text-align:center;color: $footer-color;padding-top:50px;}
 .social-media               {margin:0 auto;width:165px;}
 .social-media div           {float:left;margin-right:5px;}
